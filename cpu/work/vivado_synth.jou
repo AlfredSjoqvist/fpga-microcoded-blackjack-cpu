@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+<<<<<<< HEAD
+# Start of session at: Wed Apr 17 14:22:44 2024
+# Process ID: 112628
+# Current directory: /home/sebka786/TSEA83/docs/Projektskal/work
+# Command line: vivado -mode batch -source /courses/TSEA83/bin/build.tcl -notrace -journal vivado_synth.jou -log vivado_synth.log -tclargs synth uprogCPU.vhd pMem.vhd uMem.vhd Basys3.xdc
+# Log file: /home/sebka786/TSEA83/docs/Projektskal/work/vivado_synth.log
+# Journal file: /home/sebka786/TSEA83/docs/Projektskal/work/vivado_synth.jou
+# Running On: muxen2-108.ad.liu.se, OS: Linux, CPU Frequency: 2100.000 MHz, CPU Physical cores: 12, Host memory: 16186 MB
+=======
+# Start of session at: Tue Apr 16 11:10:45 2024
+# Process ID: 88107
+# Current directory: /home/alfsj019/Desktop/docs/Projektskal/work
+# Command line: vivado -mode batch -source /courses/TSEA83/bin/build.tcl -notrace -journal vivado_synth.jou -log vivado_synth.log -tclargs synth uprogCPU.vhd pMem.vhd uMem.vhd Basys3.xdc
+# Log file: /home/alfsj019/Desktop/docs/Projektskal/work/vivado_synth.log
+# Journal file: /home/alfsj019/Desktop/docs/Projektskal/work/vivado_synth.jou
+# Running On: muxen1-106.ad.liu.se, OS: Linux, CPU Frequency: 2100.000 MHz, CPU Physical cores: 12, Host memory: 16186 MB
+>>>>>>> origin/alfred_0904
+#-----------------------------------------------------------
+source /courses/TSEA83/bin/build.tcl -notrace

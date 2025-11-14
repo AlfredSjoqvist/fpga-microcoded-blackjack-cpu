@@ -1,0 +1,444 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+<<<<<<< HEAD
+# Start of session at: Wed Apr 17 14:22:44 2024
+# Process ID: 112628
+# Current directory: /home/sebka786/TSEA83/docs/Projektskal/work
+# Command line: vivado -mode batch -source /courses/TSEA83/bin/build.tcl -notrace -journal vivado_synth.jou -log vivado_synth.log -tclargs synth uprogCPU.vhd pMem.vhd uMem.vhd Basys3.xdc
+# Log file: /home/sebka786/TSEA83/docs/Projektskal/work/vivado_synth.log
+# Journal file: /home/sebka786/TSEA83/docs/Projektskal/work/vivado_synth.jou
+# Running On: muxen2-108.ad.liu.se, OS: Linux, CPU Frequency: 2100.000 MHz, CPU Physical cores: 12, Host memory: 16186 MB
+=======
+# Start of session at: Tue Apr 16 11:10:45 2024
+# Process ID: 88107
+# Current directory: /home/alfsj019/Desktop/docs/Projektskal/work
+# Command line: vivado -mode batch -source /courses/TSEA83/bin/build.tcl -notrace -journal vivado_synth.jou -log vivado_synth.log -tclargs synth uprogCPU.vhd pMem.vhd uMem.vhd Basys3.xdc
+# Log file: /home/alfsj019/Desktop/docs/Projektskal/work/vivado_synth.log
+# Journal file: /home/alfsj019/Desktop/docs/Projektskal/work/vivado_synth.jou
+# Running On: muxen1-106.ad.liu.se, OS: Linux, CPU Frequency: 2100.000 MHz, CPU Physical cores: 12, Host memory: 16186 MB
+>>>>>>> origin/alfred_0904
+#-----------------------------------------------------------
+source /courses/TSEA83/bin/build.tcl -notrace
+
+############################################################################
+#### Build script 'Version 1.1 - 2024-02-23'
+
+Doing synth
+
+############################################################################
+#### Synthesizing...
+
+Reading: uprogCPU.vhd
+read_vhdl: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1550.008 ; gain = 2.016 ; free physical = 6841 ; free virtual = 20129
+Reading: pMem.vhd
+Reading: uMem.vhd
+Reading: Basys3.xdc
+Command: synth_design -top uprogCPU -part xc7a35ticpg236-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Device 21-403] Loading part xc7a35ticpg236-1L
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+<<<<<<< HEAD
+INFO: [Synth 8-7075] Helper process launched with PID 112684
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2249.969 ; gain = 404.699 ; free physical = 5794 ; free virtual = 19117
+---------------------------------------------------------------------------------
+ERROR: [Synth 8-2716] syntax error near 'PS2Clk' [/home/sebka786/TSEA83/docs/Projektskal/uprogCPU.vhd:12]
+ERROR: [Synth 8-9404] entity 'uprogcpu' is not yet compiled [/home/sebka786/TSEA83/docs/Projektskal/uprogCPU.vhd:21]
+ERROR: [Synth 8-8899] 'btnc' is illegal in an expression [/home/sebka786/TSEA83/docs/Projektskal/uprogCPU.vhd:134]
+ERROR: [Synth 8-11155] sensitivity list can only have static signal names [/home/sebka786/TSEA83/docs/Projektskal/uprogCPU.vhd:138]
+ERROR: [Synth 8-11155] sensitivity list can only have static signal names [/home/sebka786/TSEA83/docs/Projektskal/uprogCPU.vhd:199]
+ERROR: [Synth 8-11155] sensitivity list can only have static signal names [/home/sebka786/TSEA83/docs/Projektskal/uprogCPU.vhd:212]
+ERROR: [Synth 8-11155] sensitivity list can only have static signal names [/home/sebka786/TSEA83/docs/Projektskal/uprogCPU.vhd:225]
+ERROR: [Synth 8-11155] sensitivity list can only have static signal names [/home/sebka786/TSEA83/docs/Projektskal/uprogCPU.vhd:255]
+ERROR: [Synth 8-11155] sensitivity list can only have static signal names [/home/sebka786/TSEA83/docs/Projektskal/uprogCPU.vhd:307]
+ERROR: [Synth 8-11155] sensitivity list can only have static signal names [/home/sebka786/TSEA83/docs/Projektskal/uprogCPU.vhd:323]
+ERROR: [Synth 8-2716] syntax error near 'thenMerge' [/home/sebka786/TSEA83/docs/Projektskal/uprogCPU.vhd:339]
+ERROR: [Synth 8-2716] syntax error near '/' [/home/sebka786/TSEA83/docs/Projektskal/uprogCPU.vhd:339]
+ERROR: [Synth 8-36] 'alfred_0904' is not declared [/home/sebka786/TSEA83/docs/Projektskal/uprogCPU.vhd:339]
+ERROR: [Synth 8-2716] syntax error near 'if' [/home/sebka786/TSEA83/docs/Projektskal/uprogCPU.vhd:342]
+ERROR: [Synth 8-11155] sensitivity list can only have static signal names [/home/sebka786/TSEA83/docs/Projektskal/uprogCPU.vhd:336]
+ERROR: [Synth 8-11155] sensitivity list can only have static signal names [/home/sebka786/TSEA83/docs/Projektskal/uprogCPU.vhd:402]
+ERROR: [Synth 8-11155] sensitivity list can only have static signal names [/home/sebka786/TSEA83/docs/Projektskal/uprogCPU.vhd:444]
+ERROR: [Synth 8-2716] syntax error near 'PS2Data' [/home/sebka786/TSEA83/docs/Projektskal/uprogCPU.vhd:500]
+ERROR: [Synth 8-9493] found '0' definitions of operator "&", cannot determine exact overloaded matching definition for "&" [/home/sebka786/TSEA83/docs/Projektskal/uprogCPU.vhd:511]
+ERROR: [Synth 8-439] module 'uprogCPU' not found
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2324.906 ; gain = 479.637 ; free physical = 5710 ; free virtual = 19036
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+6 Infos, 0 Warnings, 0 Critical Warnings and 21 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 17 14:22:59 2024...
+=======
+INFO: [Synth 8-7075] Helper process launched with PID 88152
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2247.148 ; gain = 402.676 ; free physical = 3999 ; free virtual = 18306
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'uprogCPU' [/home/alfsj019/Desktop/docs/Projektskal/uprogCPU.vhd:12]
+INFO: [Synth 8-3491] module 'uMem' declared at '/home/alfsj019/Desktop/docs/Projektskal/uMem.vhd:6' bound to instance 'U0' of component 'uMem' [/home/alfsj019/Desktop/docs/Projektskal/uprogCPU.vhd:484]
+INFO: [Synth 8-638] synthesizing module 'uMem' [/home/alfsj019/Desktop/docs/Projektskal/uMem.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'uMem' (0#1) [/home/alfsj019/Desktop/docs/Projektskal/uMem.vhd:12]
+INFO: [Synth 8-3491] module 'pMem' declared at '/home/alfsj019/Desktop/docs/Projektskal/pMem.vhd:8' bound to instance 'U1' of component 'pMem' [/home/alfsj019/Desktop/docs/Projektskal/uprogCPU.vhd:488]
+INFO: [Synth 8-638] synthesizing module 'pMem' [/home/alfsj019/Desktop/docs/Projektskal/pMem.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'pMem' (0#1) [/home/alfsj019/Desktop/docs/Projektskal/pMem.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'uprogCPU' (0#1) [/home/alfsj019/Desktop/docs/Projektskal/uprogCPU.vhd:12]
+WARNING: [Synth 8-3848] Net led in module/entity uprogCPU does not have driver. [/home/alfsj019/Desktop/docs/Projektskal/uprogCPU.vhd:9]
+WARNING: [Synth 8-3848] Net KeyB in module/entity uprogCPU does not have driver. [/home/alfsj019/Desktop/docs/Projektskal/uprogCPU.vhd:82]
+WARNING: [Synth 8-7129] Port led[15] in module uprogCPU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[14] in module uprogCPU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[13] in module uprogCPU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[12] in module uprogCPU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[11] in module uprogCPU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[10] in module uprogCPU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[9] in module uprogCPU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[8] in module uprogCPU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[7] in module uprogCPU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[6] in module uprogCPU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[5] in module uprogCPU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[4] in module uprogCPU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[3] in module uprogCPU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[2] in module uprogCPU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[1] in module uprogCPU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[0] in module uprogCPU is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2326.117 ; gain = 481.645 ; free physical = 3907 ; free virtual = 18216
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2343.930 ; gain = 499.457 ; free physical = 3899 ; free virtual = 18209
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2343.930 ; gain = 499.457 ; free physical = 3899 ; free virtual = 18209
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2343.930 ; gain = 0.000 ; free physical = 3899 ; free virtual = 18208
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/alfsj019/Desktop/docs/Projektskal/Basys3.xdc]
+Finished Parsing XDC File [/home/alfsj019/Desktop/docs/Projektskal/Basys3.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/alfsj019/Desktop/docs/Projektskal/Basys3.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/uprogCPU_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/uprogCPU_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2492.680 ; gain = 0.000 ; free physical = 3863 ; free virtual = 18172
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2492.715 ; gain = 0.000 ; free physical = 3862 ; free virtual = 18171
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2492.715 ; gain = 648.242 ; free physical = 3867 ; free virtual = 18175
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35ticpg236-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2492.715 ; gain = 648.242 ; free physical = 3867 ; free virtual = 18175
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2492.715 ; gain = 648.242 ; free physical = 3867 ; free virtual = 18175
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'DATA_BUS_reg' [/home/alfsj019/Desktop/docs/Projektskal/uprogCPU.vhd:501]
+WARNING: [Synth 8-327] inferring latch for variable 'res_reg' [/home/alfsj019/Desktop/docs/Projektskal/uprogCPU.vhd:365]
+WARNING: [Synth 8-327] inferring latch for variable 'C_t_reg' [/home/alfsj019/Desktop/docs/Projektskal/uprogCPU.vhd:384]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2492.715 ; gain = 648.242 ; free physical = 3864 ; free virtual = 18174
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   17 Bit       Adders := 3     
+	   2 Input   16 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 4     
+	               16 Bit    Registers := 20    
+	                8 Bit    Registers := 4     
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 5     
++---Multipliers : 
+	              16x16  Multipliers := 2     
++---Muxes : 
+	 257 Input   32 Bit        Muxes := 1     
+	   4 Input   32 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 2     
+	   6 Input   32 Bit        Muxes := 1     
+	  13 Input   32 Bit        Muxes := 1     
+	   2 Input   16 Bit        Muxes := 2     
+	   4 Input    8 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 2     
+	   6 Input    8 Bit        Muxes := 2     
+	   2 Input    4 Bit        Muxes := 1     
+	  16 Input    3 Bit        Muxes := 1     
+	   4 Input    1 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 22    
+	  14 Input    1 Bit        Muxes := 3     
+	  17 Input    1 Bit        Muxes := 16    
+	  13 Input    1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+DSP Report: Generating DSP res0, operation Mode is: A2*B.
+DSP Report: register AR_reg is absorbed into DSP res0.
+DSP Report: operator res0 is absorbed into DSP res0.
+DSP Report: Generating DSP res0, operation Mode is: A2*B.
+DSP Report: register AR_reg is absorbed into DSP res0.
+DSP Report: operator res0 is absorbed into DSP res0.
+WARNING: [Synth 8-7129] Port led[15] in module uprogCPU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[14] in module uprogCPU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[13] in module uprogCPU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[12] in module uprogCPU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[11] in module uprogCPU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[10] in module uprogCPU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[9] in module uprogCPU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[8] in module uprogCPU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[7] in module uprogCPU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[6] in module uprogCPU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[5] in module uprogCPU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[4] in module uprogCPU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[3] in module uprogCPU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[2] in module uprogCPU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[1] in module uprogCPU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[0] in module uprogCPU is either unconnected or has no load
+WARNING: [Synth 8-3332] Sequential element (DATA_BUS_reg[31]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (DATA_BUS_reg[30]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (DATA_BUS_reg[29]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (DATA_BUS_reg[28]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (DATA_BUS_reg[27]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (DATA_BUS_reg[26]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (DATA_BUS_reg[25]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (DATA_BUS_reg[24]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (DATA_BUS_reg[23]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (DATA_BUS_reg[22]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (DATA_BUS_reg[21]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (DATA_BUS_reg[20]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (DATA_BUS_reg[19]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (DATA_BUS_reg[18]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (DATA_BUS_reg[17]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (DATA_BUS_reg[16]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (DATA_BUS_reg[15]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (DATA_BUS_reg[14]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (DATA_BUS_reg[13]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (DATA_BUS_reg[12]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (DATA_BUS_reg[11]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (DATA_BUS_reg[10]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (DATA_BUS_reg[9]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (DATA_BUS_reg[8]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (DATA_BUS_reg[7]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (DATA_BUS_reg[6]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (DATA_BUS_reg[5]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (DATA_BUS_reg[4]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (DATA_BUS_reg[3]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (DATA_BUS_reg[2]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (DATA_BUS_reg[1]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (DATA_BUS_reg[0]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (res_reg[31]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (res_reg[30]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (res_reg[29]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (res_reg[28]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (res_reg[27]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (res_reg[26]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (res_reg[25]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (res_reg[24]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (res_reg[23]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (res_reg[22]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (res_reg[21]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (res_reg[20]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (res_reg[19]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (res_reg[18]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (res_reg[17]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (res_reg[16]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (res_reg[15]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (res_reg[14]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (res_reg[13]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (res_reg[12]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (res_reg[11]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (res_reg[10]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (res_reg[9]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (res_reg[8]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (res_reg[7]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (res_reg[6]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (res_reg[5]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (res_reg[4]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (res_reg[3]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (res_reg[2]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (res_reg[1]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (res_reg[0]) is unused and will be removed from module uprogCPU.
+WARNING: [Synth 8-3332] Sequential element (C_t_reg) is unused and will be removed from module uprogCPU.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 2492.715 ; gain = 648.242 ; free physical = 3853 ; free virtual = 18169
+---------------------------------------------------------------------------------
+ Sort Area is  res0_0 : 0 0 : 1962 1962 : Used 1 time 0
+ Sort Area is  res0_2 : 0 0 : 1962 1962 : Used 1 time 0
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping Report
++------------+------------+---------------+----------------+
+|Module Name | RTL Object | Depth x Width | Implemented As | 
++------------+------------+---------------+----------------+
+|uprogCPU    | K1         | 32x7          | LUT            | 
++------------+------------+---------------+----------------+
+
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|uprogCPU    | A2*B        | 16     | 16     | -      | -      | 32     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|uprogCPU    | A2*B        | 16     | 16     | -      | -      | 32     | 1    | 0    | -    | -    | -     | 0    | 0    | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 2492.715 ; gain = 648.242 ; free physical = 3854 ; free virtual = 18169
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 2492.715 ; gain = 648.242 ; free physical = 3854 ; free virtual = 18169
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 2492.715 ; gain = 648.242 ; free physical = 3854 ; free virtual = 18169
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 2492.715 ; gain = 648.242 ; free physical = 3854 ; free virtual = 18169
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 2492.715 ; gain = 648.242 ; free physical = 3854 ; free virtual = 18169
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 2492.715 ; gain = 648.242 ; free physical = 3854 ; free virtual = 18169
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 2492.715 ; gain = 648.242 ; free physical = 3854 ; free virtual = 18169
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 2492.715 ; gain = 648.242 ; free physical = 3854 ; free virtual = 18169
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 2492.715 ; gain = 648.242 ; free physical = 3854 ; free virtual = 18169
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |OBUFT |    16|
++------+------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 2492.715 ; gain = 648.242 ; free physical = 3854 ; free virtual = 18169
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 85 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 2492.715 ; gain = 499.457 ; free physical = 3854 ; free virtual = 18169
+Synthesis Optimization Complete : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 2492.715 ; gain = 648.242 ; free physical = 3854 ; free virtual = 18169
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2492.715 ; gain = 0.000 ; free physical = 4143 ; free virtual = 18458
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/alfsj019/Desktop/docs/Projektskal/Basys3.xdc]
+Finished Parsing XDC File [/home/alfsj019/Desktop/docs/Projektskal/Basys3.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2500.684 ; gain = 0.000 ; free physical = 4144 ; free virtual = 18459
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: ac8e6971
+INFO: [Common 17-83] Releasing license: Synthesis
+21 Infos, 103 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 2500.719 ; gain = 995.445 ; free physical = 4144 ; free virtual = 18459
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2003.726; main = 1705.582; forked = 440.167
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 4086.957; main = 2500.688; forked = 1626.289
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2532.699 ; gain = 0.000 ; free physical = 4144 ; free virtual = 18459
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Wrote PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2532.699 ; gain = 0.000 ; free physical = 4144 ; free virtual = 18459
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2532.699 ; gain = 0.000 ; free physical = 4144 ; free virtual = 18459
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2532.699 ; gain = 0.000 ; free physical = 4144 ; free virtual = 18459
+Wrote Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2532.699 ; gain = 0.000 ; free physical = 4144 ; free virtual = 18459
+Wrote Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2532.699 ; gain = 0.000 ; free physical = 4143 ; free virtual = 18459
+Write Physdb Complete: Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.09 . Memory (MB): peak = 2532.699 ; gain = 0.000 ; free physical = 4143 ; free virtual = 18459
+INFO: [Common 17-1381] The checkpoint '/home/alfsj019/Desktop/docs/Projektskal/work/synth.dcp' has been generated.
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 16 11:11:06 2024...
+>>>>>>> origin/alfred_0904

@@ -1,0 +1,55 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Tue Apr 16 11:07:44 2024
+# Process ID: 86896
+# Current directory: /home/alfsj019/Desktop/docs/Projektskal/work
+# Command line: vivado -mode batch -source /courses/TSEA83/bin/build.tcl -notrace -journal vivado_synth.jou -log vivado_synth.log -tclargs synth uprogCPU.vhd pMem.vhd uMem.vhd Basys3.xdc
+# Log file: /home/alfsj019/Desktop/docs/Projektskal/work/vivado_synth.log
+# Journal file: /home/alfsj019/Desktop/docs/Projektskal/work/vivado_synth.jou
+# Running On: muxen1-106.ad.liu.se, OS: Linux, CPU Frequency: 2100.000 MHz, CPU Physical cores: 12, Host memory: 16186 MB
+#-----------------------------------------------------------
+source /courses/TSEA83/bin/build.tcl -notrace
+
+############################################################################
+#### Build script 'Version 1.1 - 2024-02-23'
+
+Doing synth
+
+############################################################################
+#### Synthesizing...
+
+Reading: uprogCPU.vhd
+Reading: pMem.vhd
+Reading: uMem.vhd
+Reading: Basys3.xdc
+Command: synth_design -top uprogCPU -part xc7a35ticpg236-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Device 21-403] Loading part xc7a35ticpg236-1L
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 86937
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2250.109 ; gain = 403.730 ; free physical = 4077 ; free virtual = 18386
+---------------------------------------------------------------------------------
+ERROR: [Synth 8-2716] syntax error near 'if' [/home/alfsj019/Desktop/docs/Projektskal/uprogCPU.vhd:490]
+ERROR: [Synth 8-2716] syntax error near 'then' [/home/alfsj019/Desktop/docs/Projektskal/uprogCPU.vhd:490]
+ERROR: [Synth 8-2716] syntax error near 'else' [/home/alfsj019/Desktop/docs/Projektskal/uprogCPU.vhd:492]
+ERROR: [Synth 8-2716] syntax error near 'if' [/home/alfsj019/Desktop/docs/Projektskal/uprogCPU.vhd:494]
+INFO: [Synth 8-11252] unit 'func' is ignored due to previous errors [/home/alfsj019/Desktop/docs/Projektskal/uprogCPU.vhd:559]
+INFO: [Synth 8-10443] VHDL file '/home/alfsj019/Desktop/docs/Projektskal/uprogCPU.vhd' is ignored due to errors
+INFO: [Synth 8-638] synthesizing module 'uprogCPU' [/home/alfsj019/Desktop/docs/Projektskal/uprogCPU.vhd:6]
+INFO: [Synth 8-256] done synthesizing module 'uprogCPU' (0#1) [/home/alfsj019/Desktop/docs/Projektskal/uprogCPU.vhd:6]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2325.078 ; gain = 478.699 ; free physical = 3989 ; free virtual = 18299
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+10 Infos, 0 Warnings, 0 Critical Warnings and 5 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 16 11:07:54 2024...

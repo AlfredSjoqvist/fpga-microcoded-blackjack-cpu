@@ -1,0 +1,58 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Tue Apr 16 10:51:06 2024
+# Process ID: 80611
+# Current directory: /home/alfsj019/Desktop/docs/Projektskal/work
+# Command line: vivado -mode batch -source /courses/TSEA83/bin/build.tcl -notrace -journal vivado_synth.jou -log vivado_synth.log -tclargs synth uprogCPU.vhd pMem.vhd uMem.vhd Basys3.xdc
+# Log file: /home/alfsj019/Desktop/docs/Projektskal/work/vivado_synth.log
+# Journal file: /home/alfsj019/Desktop/docs/Projektskal/work/vivado_synth.jou
+# Running On: muxen1-106.ad.liu.se, OS: Linux, CPU Frequency: 2100.000 MHz, CPU Physical cores: 12, Host memory: 16186 MB
+#-----------------------------------------------------------
+source /courses/TSEA83/bin/build.tcl -notrace
+
+############################################################################
+#### Build script 'Version 1.1 - 2024-02-23'
+
+Doing synth
+
+############################################################################
+#### Synthesizing...
+
+Reading: uprogCPU.vhd
+Reading: pMem.vhd
+Reading: uMem.vhd
+Reading: Basys3.xdc
+Command: synth_design -top uprogCPU -part xc7a35ticpg236-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Device 21-403] Loading part xc7a35ticpg236-1L
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 80667
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2247.090 ; gain = 402.676 ; free physical = 4437 ; free virtual = 18589
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'uprogCPU' [/home/alfsj019/Desktop/docs/Projektskal/uprogCPU.vhd:12]
+INFO: [Synth 8-3491] module 'uMem' declared at '/home/alfsj019/Desktop/docs/Projektskal/uMem.vhd:6' bound to instance 'U0' of component 'uMem' [/home/alfsj019/Desktop/docs/Projektskal/uprogCPU.vhd:490]
+INFO: [Synth 8-638] synthesizing module 'uMem' [/home/alfsj019/Desktop/docs/Projektskal/uMem.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'uMem' (0#1) [/home/alfsj019/Desktop/docs/Projektskal/uMem.vhd:12]
+INFO: [Synth 8-3491] module 'pMem' declared at '/home/alfsj019/Desktop/docs/Projektskal/pMem.vhd:8' bound to instance 'U1' of component 'pMem' [/home/alfsj019/Desktop/docs/Projektskal/uprogCPU.vhd:493]
+INFO: [Synth 8-638] synthesizing module 'pMem' [/home/alfsj019/Desktop/docs/Projektskal/pMem.vhd:14]
+ERROR: [Synth 8-428] missing elements in aggregate or subelement association [/home/alfsj019/Desktop/docs/Projektskal/pMem.vhd:20]
+ERROR: [Synth 8-421] mismatched array sizes in rhs and lhs of assignment [/home/alfsj019/Desktop/docs/Projektskal/pMem.vhd:20]
+ERROR: [Synth 8-421] mismatched array sizes in rhs and lhs of assignment [/home/alfsj019/Desktop/docs/Projektskal/pMem.vhd:18]
+ERROR: [Synth 8-285] failed synthesizing module 'pMem' [/home/alfsj019/Desktop/docs/Projektskal/pMem.vhd:14]
+ERROR: [Synth 8-285] failed synthesizing module 'uprogCPU' [/home/alfsj019/Desktop/docs/Projektskal/uprogCPU.vhd:12]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2323.027 ; gain = 478.613 ; free physical = 4352 ; free virtual = 18501
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+12 Infos, 0 Warnings, 0 Critical Warnings and 6 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 16 10:51:18 2024...
